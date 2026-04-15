@@ -1,0 +1,95 @@
+.title {
+    color: green;
+}
+
+a{
+    font-size: min(1vw, 7rem);
+}
+
+#yt{
+    position:relative;
+}
+
+.video{
+    position: absolute;
+    left: 6%;
+    top: 28%;
+}
+
+.popup img{
+    padding:1vh;
+    height:400px;
+}
+
+.popup a{
+    position: absolute;
+    left: 420px;
+    opacity: 0;
+}
+
+.link1{
+    bottom:50px;
+}.link2{
+    bottom:140px;
+}.link3{
+    bottom:230px;
+}.link4{
+    bottom:310px;
+}
+
+
+.item img{
+    padding:1vh;
+    width:5vw;
+}
+
+
+button{
+    display: block;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;   
+    appearance: none; 
+    
+    border: none;
+    padding: 0;
+    background: none;
+    
+    cursor:pointer;
+}
+
+.contain{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display:flex;
+}
+
+.taskbar{
+    width:100%;
+    position:fixed;
+    background-color:red;
+
+    bottom:0;
+    left:0;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction:column;
+    height:90vh;
+
+}
+
+body{
+    cursor: url(cursor.png), auto;
+    margin:2vw;
+    background-image:url(bg.png);
+    background-size:cover;
+    background-position: center;
+}
+
